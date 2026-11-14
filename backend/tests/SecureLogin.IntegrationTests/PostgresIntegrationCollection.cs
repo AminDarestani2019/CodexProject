@@ -1,0 +1,7 @@
+namespace SecureLogin.IntegrationTests;
+
+[CollectionDefinition(Name, DisableParallelization = true)]
+public sealed class PostgresIntegrationCollection
+{
+    public const string Name = "PostgreSQL integration tests";
+}
